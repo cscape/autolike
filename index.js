@@ -49,7 +49,7 @@ module.exports = function (credentials, useStream, feed = 'statuses/home_timelin
       const interval = setInterval(() => {
         checkFeed();
         console.log('Interval finished lap.')
-      }, 60000); // every 6 minutes
+      }, 180000); // every 3 minutes
       checkFeed();
     } else if (useStream === true) {
       client.stream('statuses/filter', {
