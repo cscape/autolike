@@ -1,0 +1,22 @@
+{
+  "name": "tweet-autolike",
+  "version": "1.0.0",
+  "description": "Automatically like Tweets on a given feed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amptweet/autolike.git"
+  },
+  "author": "Bryan Agredo <cioltdev@outlook.com> (https://github.com/ciolt)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amptweet/autolike/issues"
+  },
+  "homepage": "https://github.com/amptweet/autolike#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
